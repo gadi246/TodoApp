@@ -1,0 +1,41 @@
+h1{
+  color:#bf616a;
+}
+.filters {
+  padding-left: 6px;
+  color:blue;
+}
+.filters:visited {
+  color:blue;
+}
+.filters-active {
+  color:red;
+  padding-left: 6px;
+}
+ul li {
+  list-style: none;
+  line-height: 28px;
+}
+ul > li:hover > .icon{
+  display: inline;
+}
+.icon {
+  display: none;
+  margin-left: 5px;
+}
+label {
+  font-size: 1.3rem;
+}
+input[type='checkbox']:checked +label{
+  color:#888;
+  text-decoration: line-through;
+  transition:all 0.4s ;
+}
+input[type='text']{
+  font-size: 1.3rem;
+}
+.add-btn{
+  font-size: 1.3rem;
+  background: dodgerblue;
+  color:azure;
+}
