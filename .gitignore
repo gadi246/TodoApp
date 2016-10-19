@@ -36,9 +36,13 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+<<<<<<< HEAD
 # Editors stuff
 .idea
 .project
 
 # Build stuff
 /dist
+=======
+.idea
+>>>>>>> ab8c3a421222e4cefa969298b78c1032b59a58b0
